@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+
+    background-color: rgb(2, 2, 14);
+   /* background-image: url('images/wave.gif'); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+.container img {
+    width: 100%;
+}
+
+
+textarea {
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    font-size: 15px;
+      align-items: center;
+    justify-content: center;
+}
+
+.range-box {
+    color: white;
+}
+
+  .slider {
+    -webkit-appearance: none;
+    height: 5px;
+    margin-left: 10px;
+    background: #d3d3d3;
+   
+  }
+  
+
+.range-box input {
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+
+
+}
+
+.range-box label {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.range-box select,
+.btn {
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+}
